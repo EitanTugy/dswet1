@@ -1,0 +1,3 @@
+Init 3 2
+AddLecture 0 0 234218
+Quit
