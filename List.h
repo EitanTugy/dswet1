@@ -118,8 +118,11 @@ public:
 			tail = temp_node;
 			temp_node->next = nullptr;
 		}
-		else
+		else {
+			head->prev = temp_node;
 			temp_node->next = head;
+
+		}
 		head = temp_node;
 		size++;
 		return iterator(temp_node);
