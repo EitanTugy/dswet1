@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -Wall -g   CMakeFiles/dswet1.dir/library.cpp.o CMakeFiles/dswet1.dir/main.cpp.o  -o dswet1 

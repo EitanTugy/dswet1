@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/gsemy/OneDrive/Documents/234218/Tugy/dswet1/library.h
+
+/mnt/c/Users/gsemy/OneDrive/Documents/234218/Tugy/dswet1/main.cpp
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+library.h
+/mnt/c/Users/gsemy/OneDrive/Documents/234218/Tugy/dswet1/library.h
+

@@ -119,14 +119,14 @@ public:
 	
 	~DSA() {
 
-		for (int i = 0; i<hours; i++) {
-			for (int j = 0; j<rooms; j++) {
-				free_rooms_by_hour[i].erase(schedule_iter[i][j]);
-			}
-		}
-		//for(int i=0; i<hours; i++){
-		//	delete [] schedule_iter[i];
+		//for (int i = 0; i<hours; i++) {
+		//	for (int j = 0; j<rooms; j++) {
+		//		free_rooms_by_hour[i].erase(schedule_iter[i][j]);
+		//	}
 		//}
+		for(int i=0; i<hours; i++){
+			delete [] schedule_iter[i];
+		}
 		delete [] schedule_iter;
 		delete[] free_rooms_by_hour;
 		for(int i=0; i<hours; i++){

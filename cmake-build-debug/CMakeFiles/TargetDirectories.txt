@@ -1,0 +1,3 @@
+/mnt/c/Users/gsemy/OneDrive/Documents/234218/Tugy/dswet1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/gsemy/OneDrive/Documents/234218/Tugy/dswet1/cmake-build-debug/CMakeFiles/dswet1.dir
+/mnt/c/Users/gsemy/OneDrive/Documents/234218/Tugy/dswet1/cmake-build-debug/CMakeFiles/edit_cache.dir
